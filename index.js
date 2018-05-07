@@ -103,7 +103,7 @@ function handleStartButton(){
     $('.js-start-button').on('click', function(){
         $('#start-section').hide();
         $('#qAndA-section').show();
-        $('footer').show();
+        $('.footer').show();
         renderScoreCount();
         renderQandA();
         handleCheckIfRadioSelected();

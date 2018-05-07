@@ -68,7 +68,7 @@ legend {
 }
 
 #start-section .start-btn {
-    background: #288BFF;
+    background: #006DF0;
     color: #FFF;
     margin-top: 20px;
     -webkit-transition-duration: 0.4s; /* Safari */
@@ -76,7 +76,7 @@ legend {
 }
 
 #start-section .start-btn:hover {
-    background: rgb(5, 117, 246);
+    background: rgb(28, 128, 242);
     color: #FFF;
     margin-top: 20px;
 }
@@ -112,7 +112,7 @@ legend {
 }
 
 #feedback-section span {
-    color: #686F7A;
+    color: ##4C5057;
     padding: 0px 20px 17px 20px;
 } 
 
@@ -153,8 +153,8 @@ legend {
     margin-right: 12px;
 }
 
-/* Footer */
-footer {
+/* .Footer */
+.footer {
     background: #F2F3F5;
     padding: 0 20px;
     position: fixed;
@@ -164,30 +164,30 @@ footer {
     width: 100%;
 }
 
-footer .row {
+.footer .row {
     display: flex;
     flex-direction: row;
     height: 100%;
     align-items: center;
 }
 
-footer .col {
+.footer .col {
     display: flex;
     flex-direction: column;
     width: 50%;
 }
 
-footer p {
+.footer p {
     display: block;
     line-height: 24px;
 }
 
-footer p:first-child {
+.footer p:first-child {
     padding: 5px 0; */
 }
 
 .check-answer-btn {
-    background: #ED5252;
+    background: #DD1F1A;
     border: 0;
     color: #FFF;
     float: right;
@@ -210,13 +210,13 @@ footer p:first-child {
 }
 
 .next-btn {
-    background: #46C28D;
+    background: #185884;
     color: #FFF;
     float: right;
 }
 
 .next-btn:hover {
-    background: rgb(7, 197, 114);
+    background: #2077b1;
 }
 
 .results-section {
@@ -251,7 +251,7 @@ footer p:first-child {
 }
 
 @media only screen and (min-width: 321px)  {
-    footer {
+    .footer {
         background: #F2F3F5;
         padding: 15px 20px;
         position: fixed;
@@ -261,17 +261,17 @@ footer p:first-child {
         width: 100%;
     }
 
-    footer .col {
+    .footer .col {
         display: inline-block;
     }
 
-    footer p {
+    .footer p {
         display: inline-block;
         line-height: 18px;
     }
 
 @media only screen and (min-width: 500px){
-    footer {
+    .footer {
         background: #F2F3F5;
         padding: 15px 20px;
         position: fixed;
