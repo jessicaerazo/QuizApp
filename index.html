@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="This is a quiz app testing your knowledge of the fundamentals of web development">
+        <meta name="keywords" content="HTML,CSS,JavaScript,Questions,Quiz">
+        <meta name="author" content="Jessica Erazo">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+        <link href="index.css" type="text/css" rel="stylesheet"/>
+        <title>Quiz App - Web Development Fundamentals</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+            <div id="start-section">
+                <header role="banner"><h1>Web Development Fundamentals</h1></header>
+                <p>Quiz | 10 questions</p>
+                <p>This will test your knowlege of Web development fundamentals for a interview prep. This covers HTML, CSS & Javascript.</p>
+                <button type="submit" class="js-start-button start-btn">Start Quiz</button>
+            </div>
+            <div id="qAndA-section" class="hide">
+                <div id="feedback-section" class=""></div>
+                <h2>Question <span class="js-current-question-num">1</span>:</h2>
+                <form method="" action="">
+                    <fieldset>
+                        <legend id="question-section"></legend>
+                        <div id="answers-section"></div>
+                    </fieldset>
+                    <footer role="contentinfo" class="hide">
+                        <div class="row">
+                            <div class="col">
+                                <p>Question <span class="js-current-question-num">1</span>/<span>10</span></p>
+                                <p class="score">Score <span class="js-current-score-num current-score-num">0</span>/10</p>
+                            </div>
+                            <div class="col">
+                                <button type="submit" class="js-check-answer-btn check-answer-btn-disabled" disabled >Check Answer</button>
+                                <div class="js-next-question next-question"></div>
+                            </div>
+                        </div>
+                    </footer>
+                </form>
+            </div>
+            <div id="js-results-section" class="results-section"></div> 
+    <script src="index.js" type="text/javascript"></script>
+    </body>
+</html>
