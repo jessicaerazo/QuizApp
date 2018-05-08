@@ -166,12 +166,12 @@ function renderFeedback(answerIndex){
     const isCorrect = evaluateAnswer(answerIndex);
     if(isCorrect){
         score++;
-        feedbackText = "<h2><img src=\"img/checkmark.svg\" alt=\"you got a correct icon\" />Good Job! You got it correct.</h2>";
+        feedbackText = "<h2><img src=\"assets/img/checkmark.svg\" alt=\"you got a correct icon\" />Good Job! You got it correct.</h2>";
         renderScoreCount();
         $('#feedback-section').html(feedbackText).removeClass('incorrect-feedback').addClass('correct-feedback');
     }
     else{
-        feedbackText = `<h2><img src=\"img/warning.svg\" alt=\"you got a incorrect wrong icon\" />Incorrect. <span>The right answer is: ${correctAnswerText}</span> </h2>`;
+        feedbackText = `<h2><img src=\"assets/img/warning.svg\" alt=\"you got a incorrect wrong icon\" />Incorrect. <span>The right answer is: ${correctAnswerText}</span> </h2>`;
         $('#feedback-section').html(feedbackText).removeClass('correct-feedback').addClass('incorrect-feedback');
     }
 }
